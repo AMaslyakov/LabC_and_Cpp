@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build stream2.cpp
+Пример запуска: make run stream2.cpp
+*/
+
 #include <iostream>
 #include <fstream>
 

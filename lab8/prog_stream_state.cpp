@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build prog_stream_state.cpp
+Пример запуска: make run prog_stream_state.cpp
+*/
+
 #include <iostream>
 #include <sstream>
 
