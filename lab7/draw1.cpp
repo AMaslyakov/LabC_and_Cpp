@@ -1,3 +1,10 @@
+// Работа выполнялась на операционной система GNU/Linux Manjaro x86_64
+// Для выполнения лабраторной использована библиотека raylib
+// Для компилияци нужно использовать make build <prog.cpp> 
+// Для компиляции и последующего запуска make run <prog.cpp> 
+// В обоих случаях компилируется исполняемы файл bin/prog
+// Для данного файла make run draw1.cpp 
+
 #include "raylib.h"
 
 const int screen_width = 800;
@@ -89,6 +96,7 @@ public:
 };
 
 int main(void){
+	// создание окно
 	InitWindow(screen_width, screen_height, "draw1");
 	if (!IsWindowReady()){
 		return 1;
@@ -102,7 +110,8 @@ int main(void){
 
 	bool is_flying = false;
 	float fly_timer = 0.0f;
-
+	
+	// основной цикл графического приложения
 	while (!WindowShouldClose()){
 		if (IsKeyPressed(KEY_SPACE) || IsKeyPressed(KEY_ENTER)){
 			is_flying = !is_flying;
