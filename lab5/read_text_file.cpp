@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build read_text_file.cpp
+Пример запуска: make run read_text_file.cpp
+*/
+
 #include "stdio.h"
 
 int main(void){
@@ -16,5 +23,4 @@ int main(void){
 		}
 	return 0;
 }
-
 

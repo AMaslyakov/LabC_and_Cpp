@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build page_number_last_line.cpp
+Пример запуска: make run page_number_last_line.cpp
+*/
+
 #include "stdio.h"
 #include "ctype.h"
 #include "string.h"
@@ -114,4 +121,3 @@ int main(void){
 	printf("Результат сохранен в %s\n", output_file_name);
 	return 0;
 }
-

@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build count_empty_symbols.cpp
+Пример запуска: make run count_empty_symbols.cpp
+*/
+
 #include "stdio.h"
 #include "ctype.h"
 
@@ -32,4 +39,3 @@ int main(void){
 	}
 	return 0;
 }
-

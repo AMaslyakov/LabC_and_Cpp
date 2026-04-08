@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build search_sub_string.cpp
+Пример запуска: make run search_sub_string.cpp
+*/
+
 #include "stdio.h"
 #include "string.h"
 
