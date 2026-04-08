@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Файл использует stringtype.h и собирается вместе с stringtype_methods.cpp.
+Пример сборки и запуска: make with stringtype_main.cpp
+*/
+
 #include "stringtype.h"
 
 int main(void){

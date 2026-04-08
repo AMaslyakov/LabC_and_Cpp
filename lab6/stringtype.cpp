@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build stringtype.cpp
+Пример запуска: make run stringtype.cpp
+*/
+
 #include <iostream>
 
 class StringType{
