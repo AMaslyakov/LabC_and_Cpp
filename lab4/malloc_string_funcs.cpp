@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build malloc_string_funcs.cpp
+Пример запуска: make run malloc_string_funcs.cpp
+*/
+
 #include <iostream>
 #include <cstdlib>
 

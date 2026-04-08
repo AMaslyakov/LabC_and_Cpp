@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build string_array.cpp
+Пример запуска: make run string_array.cpp
+*/
+
 #include <iostream>
 #define STRING_FUNCS_ONLY
 #include "calloc_string_funcs.cpp"

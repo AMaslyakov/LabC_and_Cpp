@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build custom_string_funcs.cpp
+Пример запуска: make run custom_string_funcs.cpp
+*/
+
 #include <iostream>
 
 int string_length(char* str){

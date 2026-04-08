@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build string_funcs.cpp
+Пример запуска: make run string_funcs.cpp
+*/
+
 #include <iostream>
 #include "string.h"
 
