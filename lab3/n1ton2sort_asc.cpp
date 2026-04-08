@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build n1ton2sort_asc.cpp
+Пример запуска: make run n1ton2sort_asc.cpp
+*/
+
 #include <iostream>
 #include <limits>
 

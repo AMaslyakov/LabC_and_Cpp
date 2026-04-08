@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build evenoddsort.cpp
+Пример запуска: make run evenoddsort.cpp
+*/
+
 #include <iostream>
 
 bool evenOrOdd(int a, int b)
