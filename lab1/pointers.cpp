@@ -1,3 +1,10 @@
+/*
+Работа выполнялась на ОС GNU/Linux Manjaro x86_64.
+Для компиляции и запуска нужно использовать make.
+Пример сборки: make build FILE=pointers.cpp
+Пример запуска: make run FILE=pointers.cpp
+*/
+
 #define PR(x) printf("x=%p, *x=%d, &x=%p\n", x, *x, &x)
 #include <stdio.h>
 int main(void){
